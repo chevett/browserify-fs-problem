@@ -1,0 +1,18 @@
+{
+  "name": "skyjuice",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon -e js,less,vash"
+  },
+  "author": "neverware",
+  "license": "none",
+  "dependencies": {
+    "browserify": "^3.43.0",
+    "browserify-fs": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.0.17"
+  }
+}
